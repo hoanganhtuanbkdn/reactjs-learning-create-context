@@ -1,17 +1,13 @@
 import React from 'react';
-import List from './List';
-import List2 from './List2';
-import './Home.css';
-import { HomeProvider } from '../context/HomeContext';
+import List from '../components/ListProduct';
+import Header from '../components/Header';
 
 const Home = () => {
 	return (
-		<HomeProvider>
-			<div className="root">
-				<List />
-				<List2 />
-			</div>
-		</HomeProvider>
+		<div className="">
+			<Header />
+			<List />
+		</div>
 	);
 };
 

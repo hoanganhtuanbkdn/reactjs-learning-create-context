@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import './App.css';
 import axios from 'axios';
 import { Link, useParams, useLocation } from 'react-router-dom';
 function Detail() {
