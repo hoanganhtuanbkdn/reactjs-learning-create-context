@@ -1,6 +1,32 @@
 import { useShopContext } from '../context/ShopContext';
+const products = [
+	{
+		id: 1,
+		name: 'Purple women shirt',
+		image: '/images/product-1.webp',
+		imageHover: '/images/product-1-hover.webp',
+	},
+	{
+		id: 2,
+		name: 'Purple women shirt',
+		image: '/images/product-2.webp',
+		imageHover: '/images/product-2-hover.webp',
+	},
+	{
+		id: 3,
+		name: 'Purple women shirt',
+		image: '/images/product-3.webp',
+		imageHover: '/images/product-3-hover.webp',
+	},
+	{
+		id: 4,
+		name: 'Purple women shirt',
+		image: '/images/product-4.webp',
+		imageHover: '/images/product-4-hover.webp',
+	},
+];
 function List() {
-	const { products, addProductToCart } = useShopContext();
+	const { addProductToCart } = useShopContext();
 
 	return (
 		<div className="container mx-auto py-10">

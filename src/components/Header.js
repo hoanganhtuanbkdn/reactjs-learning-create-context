@@ -2,7 +2,7 @@ import React from 'react';
 import { useShopContext } from '../context/ShopContext';
 
 export default function Header() {
-	const { carts, addProductToCart } = useShopContext();
+	const { carts } = useShopContext();
 
 	return (
 		<div className=" h-[75px] border border-[rgba(204, 199, 199, 0.35)]">
